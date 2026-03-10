@@ -19,6 +19,12 @@ app.use('/api/listings', createProxyMiddleware({
   logLevel: 'debug',
 }));
 
+app.use('/api/admin', createProxyMiddleware({
+  target: 'http://localhost:5003',
+  changeOrigin: true,
+  logLevel: 'debug',
+}));
+
 app.get('/health', (_, res) => res.json({ status: 'Gateway running' }));
 
 app.listen(5000, () => console.log('API Gateway on port 5000'));
