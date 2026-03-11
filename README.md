@@ -1,4 +1,15 @@
 # 🌍 WanderShare — Travel Experience Sharing Platform
+## 🌐 Live Demo
+
+👉 **Frontend:** https://wander-share-ochre.vercel.app
+
+👉 **Admin Portal:** https://wander-share-ochre.vercel.app/admin/login
+- Email: `admin@wandershare.com`
+- Password: `Admin@123456`
+
+👉 **API Gateway:** https://courageous-creativity-production-53bf.up.railway.app
+
+---
 
 > A full-stack microservices web application that enables travelers to discover, share, and manage authentic travel experiences worldwide.
 
